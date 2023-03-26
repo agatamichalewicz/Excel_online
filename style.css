@@ -1,0 +1,72 @@
+table {
+    margin: auto; /* ustawienie marginesów na auto pozwala na wyśrodkowanie tabelki */ 
+    border: 2px pink solid; /* ustawienie grubosci,koloru i typu obramowania tabeli*/ 
+    margin-bottom: 20px; /*  margines dolny odsunie przyciski od tabeli*/ 
+  }
+  th{
+    border: 2px pink solid; /* ustawienie grubosci,koloru i typu obramowania tabeli*/ 
+    text-align: center; /* ulozenie tekstu na srodek */ 
+    font-family: 'Gilroy-Light', sans-serif;  /*zmiana czcionki*/ 
+  }
+  td{
+    border: 2px pink solid; /* ustawienie grubosci,koloru i typu obramowania tabeli*/ 
+    width: 80px; /* szerokosc*/ 
+    height: 40px; /* wysokosc */ 
+    text-align: center; /* ulozenie tekstu na srodek */ 
+    font-family: 'Gilroy-Light', sans-serif;  /*zmiana czcionki*/ 
+  }
+ /* */  
+
+  body {
+    display: flex; /* ustawienie wyswietlania typu flex*/ 
+    flex-direction: column; /*ulozenie kolumnowe*/ 
+    justify-content: center; /*wyjustowanie po srodku */ 
+    align-items: center; /*ulozenie elementów na srodku*/ 
+  }
+ #tytul{
+    font-family: 'Gilroy-Bold', sans-serif;  /*zmiana czcionki*/ 
+    font-size: 48px;  /*zmiana rozmiaru czcionki*/ 
+    text-align: center;  /*ulozenie tekstu na srodek*/ 
+    color: pink;
+ }
+
+ button {
+    display: inline-block;  /*ulozenie przyciskow w linii*/ 
+    margin-right: 10px;  /*dodanie marginesu prawego*/ 
+    padding: 10px 60px;  /*ustawiennie marginesu wewnetrznego*/ 
+    background: #fff;  /* zmiana koloru tła*/ 
+    border: 1px black solid;  /*ustawienie grubosci,koloru i typu obramowania tabeli*/ 
+    outline: none; /* przycisk sie nie zaznacza*/
+    cursor: pointer;/*jak ktos najedzie to kursor to wtedy zmienia sie w paluszek*/;
+    font-size: 22px;/* zmiana rozmiaru czcionki*/
+    font-weight: 500;/* grubosc czcionki*/
+    border-radius: 30px; /*zaokraglenie obramowania*/
+    margin-top: 10px; /*margines zewnetrzny górny*/
+    transition: transform 150ms; /*czas trwania animacji na elemencie*/
+    font-family: 'Gilroy-Regular', sans-serif;  /*zmiana czcionki*/ 
+  }
+
+button:hover { /*tutaj zmieniamy wygląd przycisku po najechaniu*/
+    background: #e3e3e3; /* kolor tla przycisku*/
+    transform: translateY(-5px); /* zmiana położenia w osi Y*/
+}
+
+  #jeden{
+    border: 0px; /* usuniecie obramowania*/
+  }
+  #wynik {
+    text-align: center; /*ulozenie tekstu na srodku*/
+    margin-top: 20px; /*margines zewnetrzny górny*/
+    font-size: 20px;
+    font-family:'Gilroy-Bold', sans-serif;
+  }
+
+input[type="number"] { /* ustawienie wygladu inputów*/
+  width: 40px; /*szerokosc*/
+}
+
+footer{
+    margin-top:30px;
+    border: 1px pink solid;
+    font-size:16px;
+}
